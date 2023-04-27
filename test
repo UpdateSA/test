@@ -1,6 +1,6 @@
 local player = game.Players.LocalPlayer
 
-local White = { "imba_perchi", "accc"
+local White = { "acc", "accc"
 
 }
 
