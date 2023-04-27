@@ -1,8 +1,10 @@
-if game.Players.LocalPlayer.Username== {"Username1", "Username2", "Username3"} then
-print("Whitelisted")
-else
-game.Players.LocalPlayer:Kick("Not Whitelisted")
-end
+local player = game.Players.LocalPlayer
+
+local White = { "imba_perchi", "accc"
+
+}
+
+if not table.find(White,player.Name) then player:Kick("You are not whitelisted") return; end
 
 
 
